@@ -20,16 +20,16 @@ function rander() {
  <div class="d-flex justify-content-between">
  
 <div>
-  <h5 class="card-subtitle mb-2">${cartItems[i].model} 
+  <h6 class="card-subtitle mb-2">${cartItems[i].model} 
   <h5 class="card-subtitle mb-2">${cartItems[i].price}$
 </div>
 <div class="">
  <span class=" ms-5 text-dark fs-6 fw-bold">Qty :${cartItems[i].quaintity}X</span>
                    
 
-  <button class="btn btn-primary fs-5 " onclick ="add(${i})">+</button> 
-  <button class="btn btn-primary fs-5 "  onclick ="sub(${i})">-</button> 
-   <button class="btn btn-primary fs-5"  onclick ="del(${i})"><i class="fa-solid fa-trash"></i></button></h4>
+  <button class="btn btn-primary fs-6 " onclick ="add(${i})">+</button> 
+  <button class="btn btn-primary fs-6 "  onclick ="sub(${i})">-</button> 
+   <button class="btn btn-primary fs-6"  onclick ="del(${i})"><i class="fa-solid fa-trash fs-6"></i></button></h4>
 
 </div>
 
