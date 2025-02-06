@@ -1,7 +1,7 @@
 var phones = [
   {
     brand: "Samsung",
-    model: "Galaxy S21",
+    model: "Galaxy",
     ram: 8,
     rom: 128,
     camera: "64 megapixel",
@@ -17,7 +17,7 @@ var phones = [
   },
   {
     brand: "OnePlus",
-    model: "9",
+    model: "9+",
     ram: 12,
     rom: 256,
     camera: "48 megapixel",
@@ -41,7 +41,7 @@ var phones = [
   },
   {
     brand: "Sony",
-    model: "Xperia 1 III",
+    model: "Xperia 1",
     ram: 12,
     rom: 256,
     camera: "12 megapixel",
@@ -49,7 +49,7 @@ var phones = [
   },
   {
     brand: "Oppo",
-    model: "Find X3 Pro",
+    model: "Find X3",
     ram: 12,
     rom: 256,
     camera: "50 megapixel",
@@ -89,7 +89,7 @@ var phones = [
   },
   {
     brand: "Asus",
-    model: "ROG Phone 5",
+    model: "ROG",
     ram: 16,
     rom: 512,
     camera: "64 megapixel",
@@ -97,7 +97,7 @@ var phones = [
   },
   {
     brand: "HTC",
-    model: "Desire 21 Pro",
+    model: "Desire",
     ram: 8,
     rom: 128,
     camera: "48 megapixel",
@@ -105,7 +105,7 @@ var phones = [
   },
   {
     brand: "Huawei",
-    model: "P40 Pro",
+    model: "P40",
     ram: 8,
     rom: 256,
     camera: "50 megapixel",
@@ -137,7 +137,7 @@ var phones = [
   },
   {
     brand: "Lenovo",
-    model: "Legion Phone Duel",
+    model: "Legion 4",
     ram: 16,
     rom: 512,
     camera: "64 megapixel",
