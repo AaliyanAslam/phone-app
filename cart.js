@@ -20,8 +20,8 @@ function rander() {
  <div class="d-flex justify-content-between">
  
 <div>
-  <h4 class="card-subtitle mb-2">${cartItems[i].model} 
-  <h4 class="card-subtitle mb-2">${cartItems[i].price}$
+  <h5 class="card-subtitle mb-2">${cartItems[i].model} 
+  <h5 class="card-subtitle mb-2">${cartItems[i].price}$
 </div>
 <div class="">
  <span class=" ms-5 text-dark fs-6 fw-bold">Qty :${cartItems[i].quaintity}X</span>
