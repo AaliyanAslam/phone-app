@@ -241,3 +241,12 @@ function switchmode() {
 }
 
 btn.addEventListener("click", switchmode);
+
+
+document.getElementById("go-to-top").addEventListener("click", function() {
+  window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+  });
+});
+

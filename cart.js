@@ -2,6 +2,38 @@ var cartContainer = document.querySelector(".container");
 var cartItems = JSON.parse(localStorage.getItem("cartItems"));
 
 // console.log(cartItems);
+var btn = document.getElementById("switchmode");
+var mode = "light";
+backIcon = document.querySelector("back-icon");
+
+function switchmode() {
+  if (mode === "light") {
+    console.log("btn work");
+
+    document.body.style.backgroundColor = "black";
+    document.getElementById(
+      "switchmode"
+    ).innerHTML = `<i class="fa-regular fa-sun"></i>`;
+    document.body.style.color = "white";
+    btn.style.background = "white";
+
+    mode = "dark";
+  } else {
+    if (mode === "dark") {
+      document.getElementById(
+        "switchmode"
+      ).innerHTML = `<i class="fa-regular fa-moon"></i>`;
+    }
+
+    document.body.style.backgroundColor = "#dddddd70";
+    document.body.style.color = "black";
+    //  btn.style.background = "#dddddd70";
+
+    mode = "light";
+  }
+}
+
+btn.addEventListener("click", switchmode);
 
 function rander() {
   cartContainer.innerHTML = "";
@@ -80,38 +112,7 @@ function delAllBtn() {
 
 // }
 
-var btn = document.getElementById("switchmode");
-var mode = "light";
-backIcon = document.querySelector("back-icon");
 
-function switchmode() {
-  if (mode === "light") {
-    console.log("btn work");
-
-    document.body.style.backgroundColor = "black";
-    document.getElementById(
-      "switchmode"
-    ).innerHTML = `<i class="fa-regular fa-sun"></i>`;
-    document.body.style.color = "white";
-    btn.style.background = "white";
-
-    mode = "dark";
-  } else {
-    if (mode === "dark") {
-      document.getElementById(
-        "switchmode"
-      ).innerHTML = `<i class="fa-regular fa-moon"></i>`;
-    }
-
-    document.body.style.backgroundColor = "#dddddd70";
-    document.body.style.color = "black";
-    //  btn.style.background = "#dddddd70";
-
-    mode = "light";
-  }
-}
-
-btn.addEventListener("click", switchmode);
 
 function back() {
   window.location = "index.html";

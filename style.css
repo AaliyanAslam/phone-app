@@ -55,3 +55,17 @@ color: black;
 margin-left: 6px;
 
 }
+
+.total-price
+{
+border-radius: 32px;
+padding: 8px;
+
+}
+
+.go-to-top{
+position: fixed;
+bottom: 20px;
+right: 20px;
+border-radius: 50%;
+}
