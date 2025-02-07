@@ -117,3 +117,10 @@ function delAllBtn() {
 function back() {
   window.location = "index.html";
 }
+
+var totalPrice2 = document.querySelector(".total-price-2");
+
+function calculateTotalPrice() {
+  totalPrice2.innerHTML = `Total Price: ${totalPrice}`;
+}
+
